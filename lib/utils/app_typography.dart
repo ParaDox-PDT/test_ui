@@ -22,7 +22,7 @@ const _f12LineHeight = 19.2;
 class AppTypography {
   AppTypography._();
 
-  static const fontFamily = 'SFPro';
+  static const fontFamily = 'Urbanist';
 
 
   // FONT SIZE 24
@@ -35,24 +35,6 @@ class AppTypography {
   );
 
   // FONT SIZE 20
-  static const f20ExtraBold = TextStyle(
-    fontSize: _f20Size,
-    fontFamily: fontFamily,
-    fontWeight: FontWeight.w800,
-    height: _f20LineHeight / _f20Size,
-    letterSpacing: 0.03 * _f20Size,
-    color: Colors.white,
-    shadows: [
-      Shadow(
-        color: AppColors.cCEA43D,
-        offset: Offset(0, 2),
-      ),
-      Shadow(
-        color: AppColors.cEFCDB1,
-        offset: Offset(0, 1),
-      ),
-    ],
-  );
 
   static const f20SemiBold = TextStyle(
     fontSize: _f20Size,
